@@ -19,7 +19,8 @@ export default {
                 background: '#fffef9',
                 primary: '#3d56d9',
                 accent : '#c54f90',
-                secondary: '#27272acc'
+                secondary: '#33312f',
+                secondaryLight: '#27272aac',
             },
         },
         plugins: [],
