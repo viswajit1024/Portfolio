@@ -1,16 +1,16 @@
 import Navbar from '../../components/Navbar';
 
-const Home = () => {
+const About = () => {
     return (
-         <div className='app-wrapper px-[24px] lg:px-[126px]'>
+        <div className='app-wrapper px-[24px] lg:px-[126px]'>
             <div className="bg-background ">
                 <Navbar />
                 <p className="text-primary text-5xl font-bold font-mono">
-                    Vishu
+                    About
                 </p>
             </div>
         </div>
     )
 }
 
-export default Home
+export default About
