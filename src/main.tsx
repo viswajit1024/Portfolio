@@ -1,3 +1,5 @@
+import '@fontsource/space-mono';
+import '@fontsource-variable/work-sans';
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
