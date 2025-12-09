@@ -1,10 +1,10 @@
 import Home from './pages/home'
 import About from './pages/about'
+import ProjectsPage from './pages/project';
 import {
     BrowserRouter as Router,
     Routes,
     Route,
-    Navigate,
 } from "react-router-dom";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About/>} />
-        <Route path='*' element={<Navigate to='/' />} />
+        <Route path="/projects" element={<ProjectsPage/>} />
       </Routes>
     </Router>
   )

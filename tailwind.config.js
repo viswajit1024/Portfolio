@@ -13,7 +13,7 @@ export default {
         backgroundImage: {
             'radial-gradient': 'radial-gradient(circle, var(--tw-gradient-stops))',
         },
-        extend: {   
+        extend: {
             fontFamily: {
                 mono: ['Space Mono', ...defaultTheme.fontFamily.mono],  
                 serif: [ 'Work Sans Variable', ...defaultTheme.fontFamily.serif],

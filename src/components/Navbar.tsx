@@ -29,6 +29,11 @@ const Navbar = () => {
                         ABOUT
                     </NavLink>
                 </li>
+                <li>
+                    <NavLink to='/projects' className='p-4 hover:text-accent hover:font-bold text-primary mr-1 py-[10px] px-6 cursor-pointer duration-100'>
+                        PROJECTS
+                    </NavLink>
+                </li>
                 <li >
                     <Link to='link to resume' className='p-4 hover:text-accent hover:font-bold text-primary mr-1 py-[10px] px-6 cursor-pointer duration-100'>
                         RESUME
@@ -61,8 +66,13 @@ const Navbar = () => {
                     </NavLink>
                 </li>
                 <li className='my-[12px] mr-[1px]'>
+                    <NavLink to="/projects" className='p-4 hover:text-accent text-lg my-[12px] px-[24px] hover:font-bold text-primary mr-1 py-[10px]  cursor-pointer duration-100'>
+                        PROJECTS
+                    </NavLink>
+                </li>
+                <li className='my-[12px] mr-[1px]'>
                     {/*Add link to your resume*/}
-                    <Link to='link to resume' className='p-4 hover:text-accent text-lg my-[12px] px-[24px] hover:font-bold text-primary mr-1 py-[10px]  cursor-pointer duration-100'>
+                    <Link to='link to resume' title='Resume pdf' className='p-4 hover:text-accent text-lg my-[12px] px-[24px] hover:font-bold text-primary mr-1 py-[10px]  cursor-pointer duration-100'>
                         RESUME
                     </Link>
                 </li>

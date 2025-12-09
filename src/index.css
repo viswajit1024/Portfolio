@@ -1,7 +1,21 @@
+/* index.css or main.css, whichever is your main entrypoint */
 @import "tailwindcss";
 
+@theme {
+  --color-background: #fffef9;
+  --color-primary: #3d56d9;
+  --color-accent: #c54f90;
+  --color-secondary: #33312f;
+  --color-secondaryLight: #27272aac;
+}
+
+/* your custom classes if needed */
 .active {
-    outline: 1px solid #3d56d9;
-    border-radius: 25px;
-    font-weight: 600;   
+  outline: 1px solid var(--color-primary);
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+html {
+  scroll-behavior: smooth;
 }
