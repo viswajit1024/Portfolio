@@ -24,7 +24,7 @@ const Footer = () => {
                 <Link to="/" className="nav-item hover:text-accent hover:font-semibold">HOME</Link>
                 <Link to="/about" className="nav-item hover:text-accent hover:font-semibold ">ABOUT</Link>
                 <Link to="/projects" className="nav-item hover:text-accent hover:font-semibold">PROJECTS</Link>
-                <a href="link to resume" className="nav-item hover:text-accent hover:font-semibold">RESUME</a>
+                <a href="https://drive.google.com/file/d/1RaNOj9YQrd-X7qpyuBx1AnMCUbIB9XiP/view?usp=sharing" className="nav-item hover:text-accent hover:font-semibold">RESUME</a>
             </div>
         </footer>
     );
