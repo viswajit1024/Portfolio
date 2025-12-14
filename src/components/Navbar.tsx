@@ -35,7 +35,7 @@ const Navbar = () => {
                     </NavLink>
                 </li>
                 <li >
-                    <Link to='link to resume' className='p-4 hover:text-accent hover:font-bold text-primary mr-1 py-[10px] px-6 cursor-pointer duration-100'>
+                    <Link to='https://drive.google.com/file/d/1RaNOj9YQrd-X7qpyuBx1AnMCUbIB9XiP/view?usp=sharing' className='p-4 hover:text-accent hover:font-bold text-primary mr-1 py-[10px] px-6 cursor-pointer duration-100'>
                         RESUME
                     </Link>
                 </li>
@@ -72,7 +72,7 @@ const Navbar = () => {
                 </li>
                 <li className='my-[12px] mr-[1px]'>
                     {/*Add link to your resume*/}
-                    <Link to='link to resume' title='Resume pdf' className='p-4 hover:text-accent text-lg my-[12px] px-[24px] hover:font-bold text-primary mr-1 py-[10px]  cursor-pointer duration-100'>
+                    <Link to='https://drive.google.com/file/d/1RaNOj9YQrd-X7qpyuBx1AnMCUbIB9XiP/view?usp=sharing' title='Resume pdf' className='p-4 hover:text-accent text-lg my-[12px] px-[24px] hover:font-bold text-primary mr-1 py-[10px]  cursor-pointer duration-100'>
                         RESUME
                     </Link>
                 </li>
